@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <style>
+    /* Write your CSS code here */
+    #outer{
+        background-color: red;
+        height: 400px;
+        width: 560px;
+        display: block;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .inner{
+        height: 100px;width: 100px;
+        background-color: aqua;
+        padding: 5px;
+        float: left;
+        border: 5px solid black;
+        margin: 10px;
+    }
+
+    .inner2{
+        height: 20px;width: 100px;
+        background-color: lightgreen;
+        padding: 5px;
+        float: left;
+        border: 5px solid black;
+        margin: 10px;
+    }
+    .divMargin{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+    <div id="outer">
+
+        <div class="inner"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" height="100" width="100">   
+        </div>
+        <div class="inner" class="divMargin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" height="100px" width="100px">
+        </div>
+        <div class="inner" class="divMargin"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="100px" width="100px">
+        </div>
+        <div class="inner" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" height="100px" width="100px">
+        </div>
+
+        <div class="inner2">Facebook    
+        </div>
+        <div class="inner2" class="divMargin">Google
+        </div>
+        <div class="inner2" class="divMargin">Instagram
+        </div>
+        <div class="inner2" >Whatsapp
+        </div>
+
+        <div class="inner"><img src="https://play-lh.googleusercontent.com/4y4Hob34qNkReHWoah36OV0F0oPI6N2eakOx5dsActLEHTMidJ2WMjSpC9kTqOuM3hY" height="100px" width="100px">    
+        </div>
+        <div class="inner" class="divMargin"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202505/2820/4fb2feea131361bc482c81e9948d5abc8fb8908adf80e317.png" height="100px" width="100px">
+        </div>
+        <div class="inner" class="divMargin"><img src="https://i.ytimg.com/vi/sgVe7QYBGBU/maxresdefault.jpg" height="100px" width="100px">
+        </div>
+        <div class="inner" ><img src="https://variety.com/wp-content/uploads/2018/07/clash.png" height="100px" width="100px">
+        </div>
+
+        <div class="inner2"> BGMI   
+        </div>
+        <div class="inner2" class="divMargin"> COD
+        </div>
+        <div class="inner2" class="divMargin">GenshinImpact
+        </div>
+        <div class="inner2" > Clash of Clans
+        </div>
+    </div>
+</body>
+
+</html>
